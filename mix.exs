@@ -4,7 +4,7 @@ defmodule Exblockhash.MixProject do
   def project do
     [
       app: :exblockhash,
-      version: "0.1.0",
+      version: "0.1.1",
       elixir: "~> 1.12-rc",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
@@ -12,14 +12,12 @@ defmodule Exblockhash.MixProject do
     ]
   end
 
-  # Run "mix help compile.app" to learn about applications.
   def application do
     [
       extra_applications: [:logger]
     ]
   end
 
-  # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
       {:rustler, "~> 0.22.0"},
@@ -29,8 +27,14 @@ defmodule Exblockhash.MixProject do
 
   defp package() do
     [
-      files: ~w(lib priv native .formatter.exs mix.exs README* readme* LICENSE*
-                license* CHANGELOG* changelog* src)
+      files: ~w(
+        lib
+        priv
+        native
+        .formatter.exs
+        mix.exs
+        README*
+      )
     ]
   end
 end
