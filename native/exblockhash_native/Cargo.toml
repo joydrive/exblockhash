@@ -1,0 +1,19 @@
+[package]
+name = "exblockhash_native"
+version = "0.1.0"
+authors = []
+edition = "2018"
+
+[lib]
+name = "exblockhash_native"
+path = "src/lib.rs"
+crate-type = ["cdylib"]
+
+[dependencies]
+rustler = "0.22.0"
+blockhash = { version = "0.2.0", features = ["image"] }
+image = "0.23.14"
+
+# Go fast, even in development!
+[profile.dev]
+opt-level = 3
