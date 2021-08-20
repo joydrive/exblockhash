@@ -1,4 +1,4 @@
-# ExBlockhash
+# ExBlockhash [![Elixir](https://github.com/joydrive/exblockhash/actions/workflows/elixir.yaml/badge.svg)](https://github.com/joydrive/exblockhash/actions/workflows/elixir.yaml)
 
 Perceptual image hashing library for Elixir.
 
