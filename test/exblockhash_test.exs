@@ -35,6 +35,3 @@ defmodule ExBlockhashTest do
     end
   end
 end
-
-# test compare_images/2 returns true if the two supplied images are perceptually the same (1298.9ms) [L#5]
-# test compare_images/2 returns false if the two supplied images are perceptually different (1577.4ms) [L#13]
