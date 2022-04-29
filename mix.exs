@@ -5,7 +5,7 @@ defmodule Exblockhash.MixProject do
     [
       app: :exblockhash,
       version: "0.2.0",
-      elixir: "~> 1.12-rc",
+      elixir: "~> 1.12",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
       package: package()
@@ -20,7 +20,7 @@ defmodule Exblockhash.MixProject do
 
   defp deps do
     [
-      {:rustler, "~> 0.22.0"},
+      {:rustler, "~> 0.25.0"},
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false},
       {:credo, "~> 1.5", only: [:dev, :test], runtime: false}
     ]
