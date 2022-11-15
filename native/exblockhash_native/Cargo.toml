@@ -10,9 +10,9 @@ path = "src/lib.rs"
 crate-type = ["cdylib"]
 
 [dependencies]
-rustler = "0.22.0"
-blockhash = { version = "0.2.0", features = ["image"] }
-image = "0.23.14"
+rustler = "0.26"
+blockhash = { version = "0.5", features = ["image"] }
+image = "0.24"
 
 # Go fast, even in development!
 [profile.dev]
