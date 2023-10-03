@@ -20,7 +20,7 @@ defmodule Exblockhash.MixProject do
 
   defp deps do
     [
-      {:rustler, "~> 0.26.0"},
+      {:rustler, "~> 0.29.1"},
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false},
       {:credo, "~> 1.6", only: [:dev, :test], runtime: false}
     ]
