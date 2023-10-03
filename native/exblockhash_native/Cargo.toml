@@ -10,7 +10,7 @@ path = "src/lib.rs"
 crate-type = ["cdylib"]
 
 [dependencies]
-rustler = "0.26"
+rustler = "0.29.1"
 blockhash = { version = "0.5", features = ["image"] }
 image = "0.24"
 
